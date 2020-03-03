@@ -13,6 +13,7 @@
 		74BC5F96240EAD0200BEE027 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BC5F94240EAD0200BEE027 /* Main.storyboard */; };
 		74BC5F98240EAD0500BEE027 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 74BC5F97240EAD0500BEE027 /* Assets.xcassets */; };
 		74BC5F9B240EAD0500BEE027 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 74BC5F99240EAD0500BEE027 /* LaunchScreen.storyboard */; };
+		74BC5FA5240EB90E00BEE027 /* Inceptionv3.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 74BC5FA4240EB90E00BEE027 /* Inceptionv3.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		74BC5F97240EAD0500BEE027 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		74BC5F9A240EAD0500BEE027 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		74BC5F9C240EAD0500BEE027 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		74BC5FA4240EB90E00BEE027 /* Inceptionv3.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Inceptionv3.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		74BC5F8D240EAD0200BEE027 /* SeeFood */ = {
 			isa = PBXGroup;
 			children = (
+				74BC5FA4240EB90E00BEE027 /* Inceptionv3.mlmodel */,
 				74BC5F8E240EAD0200BEE027 /* AppDelegate.swift */,
 				74BC5F90240EAD0200BEE027 /* SceneDelegate.swift */,
 				74BC5F92240EAD0200BEE027 /* ViewController.swift */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				74BC5F93240EAD0200BEE027 /* ViewController.swift in Sources */,
+				74BC5FA5240EB90E00BEE027 /* Inceptionv3.mlmodel in Sources */,
 				74BC5F8F240EAD0200BEE027 /* AppDelegate.swift in Sources */,
 				74BC5F91240EAD0200BEE027 /* SceneDelegate.swift in Sources */,
 			);
